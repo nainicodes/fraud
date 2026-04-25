@@ -1,5 +1,5 @@
 import streamlit as st
-from modules.ui_components import render_sidebar, render_home, render_education, render_playground, render_quiz
+from ui_components import render_sidebar, render_home, render_education, render_playground, render_quiz
 
 # Page Configuration
 st.set_page_config(page_title="FraudGuard AI", layout="wide", page_icon="🛡️")
